@@ -28,12 +28,11 @@ class _AddServiceScreenState extends State<AddServiceScreen> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.white,
-        appBar: AppBarWidget().appbar(context: context),
         body: MediaQuery(
           data: MediaQuery.of(context).copyWith(textScaleFactor: 1),
           child: Padding(
             padding: EdgeInsets.only(
-                top: Sizes.h10,
+                top: Sizes.h50,
                 left: Sizes.w20,
                 right: Sizes.w20,
                 bottom: Sizes.w10),
